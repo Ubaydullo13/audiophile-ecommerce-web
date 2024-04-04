@@ -1,0 +1,41 @@
+.header{
+    background-color: var(--clr-dark);
+}
+
+.headerWrapper{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0 36px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.headerLogo{
+    cursor: pointer;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap:34px;
+}
+
+.headerNavLink {
+    color: var(--clr-light);
+    text-decoration: none;
+    font-size:var(--fs-subtitle);
+    font-weight: var(--fw-bolder);
+    text-transform: uppercase;
+}
+
+.headerNavLink:hover {
+    color: var(--clr-accent);
+    transition: all 0.2s;
+}
+
+.headerCart{
+    cursor: pointer;
+}

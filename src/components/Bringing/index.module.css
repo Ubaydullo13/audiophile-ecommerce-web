@@ -1,0 +1,33 @@
+.bringing{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    height: 588px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.bringingInfo{
+    width: 445px;
+}
+
+.bringingTitle{
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bolder);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.bringingTitle span{
+    color: var(--clr-accent);
+}
+
+.bringingDesc{
+    color: var(--clr-dark);
+    font-size: var(--fs-body);
+    opacity: 0.5;
+    line-height: 25px;
+}

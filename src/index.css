@@ -1,0 +1,63 @@
+/*FONTS*/
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/manrope-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/manrope-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/manrope-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+/*===================== 
+   *Custom Properties
+=====================*/
+:root {
+  --fw-reg: 400;
+  --fw-bold: 500;
+  --fw-bolder: 700;
+ 
+  --clr-dark: #000000;
+  --clr-lighter-dark: #101010;
+  --clr-hero-bg: #131313;
+  --clr-light: #ffffff;
+  --clr-darker-light: #fafafa;
+  --clr-grey: #f1f1f1;
+  --clr-accent: #d87d4a;
+  --clr-lighter-accent: #fbaf85;
+
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.75rem;
+  --fs-h4: 1.125rem;
+  --fs-body: 0.9375rem;
+  --fs-overline: 0.875rem;
+  --fs-subtitle: 0.8125rem;
+}
